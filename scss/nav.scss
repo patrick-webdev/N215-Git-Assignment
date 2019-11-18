@@ -1,3 +1,15 @@
-nav{
-  width: 50%;
+.navbar{
+  width: 100%;
+  background-color: $site-white;
+
+  nav{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+
+    a{
+      color: $site-black;
+      text-decoration: underline;
+    }
+  }
 }
