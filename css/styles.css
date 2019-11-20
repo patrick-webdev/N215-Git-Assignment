@@ -44,7 +44,8 @@ p {
 .s3 {
   width: 1280px;
   height: 200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 50px; }
   .s3 h2 {
     font-size: 30px;
     color: #800080; }
@@ -54,12 +55,19 @@ p {
 .s4 {
   width: 1280px;
   height: 200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 100px; }
   .s4 h2 {
     font-size: 30px;
     color: #800080; }
   .s4 p {
     font-size: 15px; }
+  .s4 .fetch {
+    width: 360px;
+    height: 260px;
+    margin-right: 10px;
+    float: left;
+    border: 2px solid #800080; }
 
 .s5 {
   width: 1280px;
@@ -71,6 +79,12 @@ p {
     color: #800080; }
   .s5 p {
     font-size: 15px; }
+  .s5 .push {
+    width: 360px;
+    height: 260px;
+    margin-left: 10px;
+    float: right;
+    border: 2px solid #800080; }
 
 footer {
   width: 100%;
