@@ -7,10 +7,18 @@ footer {
     width: 1280px;
     display: flex;
     margin: auto;
+    padding-top: 30px;
     justify-content: center;
+    font-size: 15px;
+    color: $site-white;
+  }
 
-    .date {
-      color: $site-white;
-    }
+  .date {
+    color: $site-white;
+    float: right;
+    margin-right: 40px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    font-size: 10px;
   }
 }

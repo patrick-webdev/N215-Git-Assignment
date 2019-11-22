@@ -71,8 +71,8 @@ p {
   .s4 .fetch {
     width: 460px;
     height: 360px;
-    margin-right: 10px;
-    float: left;
+    margin-left: 10px;
+    float: right;
     border: 2px solid #800080; }
 
 .s5 {
@@ -109,8 +109,16 @@ footer {
     display: -ms-flexbox;
     display: flex;
     margin: auto;
+    padding-top: 30px;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center; }
-    footer .footer-content .date {
-      color: #fff; }
+    justify-content: center;
+    font-size: 15px;
+    color: #fff; }
+  footer .date {
+    color: #fff;
+    float: right;
+    margin-right: 40px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    font-size: 10px; }
