@@ -1,6 +1,6 @@
 footer {
   width: 100%;
-  height: 75px;
+  height: 100px;
   background-color: $site-github;
 
   .footer-content {
@@ -11,6 +11,11 @@ footer {
     justify-content: center;
     font-size: 15px;
     color: $site-white;
+    text-align: center;
+
+    a{
+      color: $site-white;
+    }
   }
 
   .date {
