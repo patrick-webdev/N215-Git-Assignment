@@ -78,6 +78,24 @@ p {
     .hero .hero-content .hero-text {
       margin: 15px 0; }
 
+.step-one, .step-two {
+  width: 1280px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 150px; }
+  .step-one h2, .step-two h2 {
+    font-size: 30px;
+    color: #800080; }
+  .step-one p, .step-two p {
+    font-size: 15px; }
+  .step-one .initial-img, .step-two .initial-img {
+    width: 460px;
+    height: 300px;
+    float: right;
+    margin-left: 10px;
+    border: 2px solid #800080; }
+
 .s3 {
   width: 1280px;
   height: 200px;
