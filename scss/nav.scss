@@ -2,20 +2,24 @@
   width: 100%;
   height: $nav-height;
   margin-top: 0px;
-  background-color: $site-white;
+  background-color: $site-github;
+  border-bottom-style: solid;
+  border-color: $site-github-highlight;
+  border-width: 3px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   position: fixed;
 
   nav{
+    background-color: $site-github;
     width: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     a{
-      color: $site-black;
+      color: $site-white;
       text-decoration: underline;
     }
   }
